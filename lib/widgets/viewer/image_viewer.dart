@@ -105,13 +105,15 @@ class _ImageViewerState extends State<ImageViewer>
                 compressQuality: compressQuality,
                 maxWidth: maxWidth,
                 maxHeight: maxHeight,
-                aspectRatioPresets: [
-                  CropAspectRatioPreset.square,
-                  CropAspectRatioPreset.ratio3x2,
-                  CropAspectRatioPreset.original,
-                  CropAspectRatioPreset.ratio4x3,
-                  CropAspectRatioPreset.ratio16x9
-                ],
+                // aspectRatio: [],
+
+                // aspectRatioPresets: [
+                //   CropAspectRatioPreset.square,
+                //   CropAspectRatioPreset.ratio3x2,
+                //   CropAspectRatioPreset.original,
+                //   CropAspectRatioPreset.ratio4x3,
+                //   CropAspectRatioPreset.ratio16x9
+                // ],
                 uiSettings: [
                   AndroidUiSettings(
                       toolbarTitle: title,
@@ -608,7 +610,7 @@ class _ImageViewerState extends State<ImageViewer>
                                   children: [
                                     TextButton(
                                       style: TextButton.styleFrom(
-                                        primary: Colors.black87,
+                                        // primary: Colors.black87,
                                         backgroundColor: Colors.grey.shade200,
                                         padding: EdgeInsets.zero,
                                         shape: const RoundedRectangleBorder(
@@ -627,7 +629,7 @@ class _ImageViewerState extends State<ImageViewer>
                                     ),
                                     TextButton(
                                       style: TextButton.styleFrom(
-                                        primary: Colors.blue,
+                                        // primary: Colors.blue,
                                         backgroundColor: Colors.blue,
                                         padding: EdgeInsets.zero,
                                         shape: const RoundedRectangleBorder(
@@ -672,7 +674,7 @@ class _ImageViewerState extends State<ImageViewer>
           left: 10,
           child: TextButton(
             style: TextButton.styleFrom(
-              primary: Colors.blue,
+              // primary: Colors.blue,
               backgroundColor: Colors.blue,
               padding: EdgeInsets.zero,
               shape: const RoundedRectangleBorder(
