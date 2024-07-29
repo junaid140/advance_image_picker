@@ -425,7 +425,7 @@ class _ImagePickerState extends State<ImagePicker>
                   actions: <Widget>[
                     TextButton(
                       style: TextButton.styleFrom(
-                        primary: Colors.black87,
+                        // primary: Colors.black87,
                         minimumSize: const Size(88, 36),
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         shape: const RoundedRectangleBorder(
@@ -437,7 +437,7 @@ class _ImagePickerState extends State<ImagePicker>
                     ),
                     TextButton(
                       style: TextButton.styleFrom(
-                        primary: Colors.black87,
+                        // primary: Colors.black87,
                         minimumSize: const Size(88, 36),
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         shape: const RoundedRectangleBorder(
@@ -669,7 +669,7 @@ class _ImagePickerState extends State<ImagePicker>
   Widget _buildZoomRatioButton(BuildContext context) {
     return TextButton(
         style: TextButton.styleFrom(
-          primary: Colors.black12,
+          // primary: Colors.black12,
           minimumSize: const Size(88, 36),
           padding: const EdgeInsets.symmetric(horizontal: 16),
           shape: const CircleBorder(),
@@ -689,7 +689,7 @@ class _ImagePickerState extends State<ImagePicker>
   Widget _buildExposureButton(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-        primary: Colors.black12,
+        // primary: Colors.black12,
         minimumSize: const Size(88, 36),
         padding: const EdgeInsets.all(4),
         shape: const CircleBorder(),
@@ -712,7 +712,7 @@ class _ImagePickerState extends State<ImagePicker>
   Widget _buildImageFullOption(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-        primary: Colors.black12,
+        // primary: Colors.black12,
         minimumSize: const Size(88, 36),
         padding: const EdgeInsets.symmetric(horizontal: 16),
         shape: const CircleBorder(),
@@ -1455,15 +1455,15 @@ class _ImagePickerState extends State<ImagePicker>
     if (_controller?.value == null) return const SizedBox();
 
     final ButtonStyle styleAuto = TextButton.styleFrom(
-      primary: _controller?.value.exposureMode == ExposureMode.auto
-          ? Colors.orange
-          : Colors.white,
-    );
+        // primary: _controller?.value.exposureMode == ExposureMode.auto
+        //     ? Colors.orange
+        //     : Colors.white,
+        );
     final ButtonStyle styleLocked = TextButton.styleFrom(
-      primary: _controller?.value.exposureMode == ExposureMode.locked
-          ? Colors.orange
-          : Colors.white,
-    );
+        // primary: _controller?.value.exposureMode == ExposureMode.locked
+        //     ? Colors.orange
+        //     : Colors.white,
+        );
 
     const textStyle = TextStyle(color: Colors.white);
     return SizeTransition(
